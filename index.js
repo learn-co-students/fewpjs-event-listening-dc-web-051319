@@ -1,4 +1,5 @@
 function addingEventListener() {
+
 const input = document.getElementById('input')
 input.addEventListener('click', function(event) {
   alert('I was clicked!')
@@ -27,5 +28,4 @@ function greet(string) {
 
 		return console.log("Good Evening")
 	}
-
 }
